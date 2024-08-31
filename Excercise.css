@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+ body {
+     /* background: (rgba(83, 42, 42, 0.7), rgba(70, 60, 60, 0.7)), url('palm1.jpg'); */
+     background-color: grey;
+    /* width: 111px; */
+        /* border-radius: 0px 10px 10px 0px; */
+        position: relative;
+        bottom:50px;
+        /* left: 62px; */
+    }
+
+ 
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+    transform: scale(1,5);
+    position:relative;
+}
+
+#container-1 {
+    border-bottom:  10px;
+    padding: 30px 60px;
+    height: 50px;
+    width:400px;
+}
+
+#container-1, #container-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-2{
+    position: relative;
+    left:580px;
+    top:140px;
+    background:white;
+    border-radius: 10px;
+    width: 400px;
+    height: 500px;
+    flex-direction: column;
+
+}
+
+#container-2 button {
+    position:relative;
+    top:100px;
+    right: 125px;
+
+}
+
+textarea{
+    /* background: transparent; */
+    outline:none;
+    border-radius: 5px;
+    text-align: center;
+    /* transform: scale(1.5); */
+    margin-bottom:70px;
+    position:relative;
+    top:40px;
+    cursor:pointer;
+
+}
+
+#decrypt {
+    transform: translate(50px,110px) scale(2.4)
+}
+#copyText {
+    transform: translate(210px, 110px) scale(2.4)
+}
+#decrypt, #copyText{
+    border-radius: 2px;
+    border:none;
+    cursor:pointer;
+    background:powderblue;
+    color:white;
+}
+#shiftvalue{
+    width:200px;
+    transform:scale(1.8);
+    outline:none;
+    cursor:pointer;
+    border: 1px solid grey;
+
+}
+
+#caesar{
+    width: 111px;
+    border-radius: 0px 10px 10px 0px;
+    position:relative;
+    left: 62px; 
+}
